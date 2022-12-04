@@ -1,1 +1,168 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.second-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.description {
+    width: 500px
+}
+
+.sign-up-button {
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: 2px solid #3882F6;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 100%;
+}
+
+.deals-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 20px;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.locations {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+}
+
+.italy-details {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.reviews {
+    font-size: 30px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 30px;
+    font-style: italic;
+}
+
+.review-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.get-started {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+.user_input {
+    border-radius: 4px;
+    display: flex;  
+    padding: 12px 20px;
+    margin: 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sign-up .register-button {
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: 2px solid #3882F6;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
 
